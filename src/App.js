@@ -28,9 +28,8 @@ function App() {
       "gn texts": ["gn", "good night", "gud night", "gud nite", "good nite", "good night mi amor", "gn mi amor", "gn luv", "goonight bb", "good night bb", "goodnight luv"],
       "i miss you": ["i miss you", "i miss u", "missing u", "missing you", "miss you", "i really miss you", ">.>", "miss miss you", "miss u"],
       "facts": ["tell me a fact", "fact check", "fact", "i wanna hear fact", "fact time"],
-      "i love you": ['i wub u','i wub you', 'i lub u', 'i lub you', 'i lube u', 'i lube you a lot', 'i wub you a lot', 'i luv you', "i love you", "i really love you", "i love you to the stars and back", "i reaallly love you", "i lovee you more", "i love you like no other", "i love love you", "i love you so much", "ily", "i love you mi amor"]
-      ,"horny": ["I'm horny", "i horny", "i am horny", "i need you", "i need it", "i want sex", "i want to fuck", " i wanna fuck", "im horny"]
-    
+      "i love you": ['i wub u','i wub you', 'i lub u', 'i lub you', 'i lube u', 'i lube you a lot', 'i wub you a lot', 'i luv you', "i love you", "i really love you", "i love you to the stars and back", "i reaallly love you", "i lovee you more", "i love you like no other", "i love love you", "i love you so much", "ily", "i love you mi amor"],
+      "horny": ["i'm horny", "i horny", "i am horny", "i need you", "i need it", "i want sex", "i want to fuck", " i wanna fuck", "im horny", 'i is horny', 'horny', 'honry', 'i is horny', 'fuck me', 'sex now', 'sex naow', 'must have seggs', 'me horny']
     }
 
     function getRandomInt(max) {
@@ -41,7 +40,7 @@ function App() {
     const keys = Object.keys(understanding)
     const grabbedUnderstandings = keys.map(key => {
       fuse.setCollection(understanding[key])
-      const arr_data = fuse.search(msg_text)
+      const arr_data = fuse.search(msg_text.toLowerCase())
       return arr_data.length
     })
 
