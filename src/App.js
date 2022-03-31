@@ -29,6 +29,8 @@ function App() {
       "i miss you": ["i miss you", "i miss u", "missing u", "missing you", "miss you", "i really miss you", ">.>", "miss miss you", "miss u"],
       "facts": ["tell me a fact", "fact check", "fact", "i wanna hear fact", "fact time"],
       "i love you": ['i wub u','i wub you', 'i lub u', 'i lub you', 'i lube u', 'i lube you a lot', 'i wub you a lot', 'i luv you', "i love you", "i really love you", "i love you to the stars and back", "i reaallly love you", "i lovee you more", "i love you like no other", "i love love you", "i love you so much", "ily", "i love you mi amor"]
+      ,"horny": ["I'm horny", "i horny", "i am horny", "i need you", "i need it", "i want sex", "i want to fuck", " i wanna fuck", "im horny"]
+    
     }
 
     function getRandomInt(max) {
