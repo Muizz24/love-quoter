@@ -55,7 +55,7 @@ html, body {
 }
 
 .chatFeed {
-  height: 75vh;
+  height: 73vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
