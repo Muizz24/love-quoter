@@ -50,7 +50,6 @@ const Chat = () => {
       conversationId: activeConversation.id,
       senderId: currentUserId,
     });
-
   };
 
   return (<MainContainer>
